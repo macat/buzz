@@ -26,6 +26,8 @@
 // THE SOFTWARE.
 // ----------------------------------------------------------------------------
 
+define(function() {
+    
 var buzz = {
     defaults: {
         autoplay: false,
@@ -643,4 +645,6 @@ var buzz = {
 		
         return  Math.round( ( ( total / 100 ) * percent ) * r ) / r;
     }
-}
+};
+return buzz;
+});
